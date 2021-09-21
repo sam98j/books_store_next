@@ -1,0 +1,21 @@
+.container {
+  height: 60%;
+  color: white;
+  .img {
+    div {
+      height: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  display: flex;
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    width: 40%;
+  }
+}
